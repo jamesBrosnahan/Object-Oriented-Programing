@@ -24,7 +24,7 @@ namespace HomeworkAssignment2
             protected set;
         }
     }
-    class Sword : Weapon
+    public class Sword : Weapon
     {
         public int Handed
         {
@@ -37,7 +37,7 @@ namespace HomeworkAssignment2
             Handed = handed;
         }
     }
-    class Axe : Weapon
+    public class Axe : Weapon
     {
         public int Handed
         {
@@ -50,7 +50,7 @@ namespace HomeworkAssignment2
             Handed = handed;
         }
     }
-    class Club : Weapon
+    public class Club : Weapon
     {
         public int Handed
         {
@@ -63,7 +63,7 @@ namespace HomeworkAssignment2
             Handed = handed;
         }
     }
-    class Bow : Weapon
+    public class Bow : Weapon
     {
         private int Handed = 2;
         public int Range

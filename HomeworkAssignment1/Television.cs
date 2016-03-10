@@ -12,7 +12,7 @@ namespace HomeworkAssignment1
         //int resolution[2];
         enum screenFormat
         {
-            1 : "LCD" 2 : "LED"
+            LCD, LED
         }
         enum resolution
         {
